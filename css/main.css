@@ -6,6 +6,20 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 @import url('scroll.css');
 
+:root {
+    --bg-color: #2a00d4;
+    --text-color: #130792;
+}
+
+/* Moddo dark detectado por media query*/
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #c32a2a;
+        --text-color: #fff;
+    }
+}
+
+
 html {
     /* 
     * box-sizing
@@ -29,8 +43,9 @@ body {
     /* mobile. Tamaño mínimo recomendado */
     font-size: 14px;
     line-height: 1.4em;
-    background-color: #e8e8e8;
+    background-color: var(--bg-color);
     overflow-x: hidden;
+    color: var(--text-color)
 }
 
 /* Laptop / Tablet */
@@ -96,7 +111,7 @@ nav ul li {
 }
 
 a.box-link {
-    color: #000;
+    color: var(--text-color);
     font-weight: 600;
     text-decoration: none;
     padding: 0.25em .5em;

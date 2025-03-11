@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: var(--bg-color);
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -46,7 +46,7 @@ nav#challenge-nav ul li {
 
 /* links */
 a {
-    background-color: #000;
+    background-color: var(--bg-color);
     color: #0F0;
 }
 

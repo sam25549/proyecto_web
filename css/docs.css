@@ -26,7 +26,7 @@ nav ul li {
 
 header#main-header,
 footer#main-footer {
-    background-color: #000;
+    background-color: var(--bg-color);
     color: #FFF;
 }
 
@@ -41,7 +41,7 @@ p, li {
 a.box-link {
     color: #FFF;
     min-width: 42px;
-    background-color: #000;
+    background-color: var(--bg-color);
 }
 
 a.box-link.active,
