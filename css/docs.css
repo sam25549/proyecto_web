@@ -59,9 +59,10 @@ section, article {
 
 footer#main-footer {
     padding: 0;
-}
+
 footer#main-footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 }
